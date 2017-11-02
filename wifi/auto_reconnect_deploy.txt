@@ -1,0 +1,4 @@
+sudo cp -f /home/pi/auto_reconnect_wifi.sh /etc/init.d/
+sudo chmod +x /etc/init.d/auto_reconnect_wifi.sh
+sudo chown root:root /etc/init.d/auto_reconnect_wifi.sh
+sudo update-rc.d auto_reconnect_wifi.sh defaults
