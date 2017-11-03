@@ -1,2 +1,2 @@
 #!/bin/sh
-python /home/pi/auto_reconnect_wifi.py &
+python /home/pi/Documents/mywork/Raspberry/wifi/auto_reconnect_wifi.py &
